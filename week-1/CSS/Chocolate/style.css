@@ -1,0 +1,23 @@
+#container {
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    background-color: black;
+}
+
+.box {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin: 2.5px;
+    background-color: brown;
+}
+
+#container-upper {
+    margin-top: 5px;
+}
+
+#container-lower {
+    margin-bottom: 5px;
+}
