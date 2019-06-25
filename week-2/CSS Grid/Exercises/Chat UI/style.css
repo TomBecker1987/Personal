@@ -42,22 +42,28 @@ body {
 
 #chat-area > div {
     background-color: grey;
-    padding: 10px 3px;
+    padding: 3px 3px;
     margin: 10px;
     border-radius: 3px;
+    display: grid;
+    grid-template-areas: "q t";
 }
 
 #chat-area > div > p {
     display: inline;
     font-family: 'Shadows Into Light', cursive;
+    margin: 0;
 }
 
 #chat-area > div > p.q {
     padding-right: 10px;
+    grid-area: q;
 }
 
 #chat-area > div > p.t {
     padding-left: 10px;
+    grid-area: t;
+    align-self: end;
 }
 
 #chat-area > .her {
