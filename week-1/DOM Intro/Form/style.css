@@ -1,0 +1,54 @@
+#form-container {
+    background-color: lightseagreen;
+    width: 500px;
+    height: 500px;
+    border: 5px solid cadetblue;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+#name-container > input {
+    display: block;
+    width: 100%;
+}
+
+#salary-container, #birthday-container,#submit-container {
+    display: inline-block;
+    height: 28.3%;
+}
+
+.mid-div {
+    width: 48%;
+}
+
+#name-container, #phone-container {
+    display: block;
+    height: 28.3%;
+}
+
+#phone-container > input {
+    display: block;
+    width: 100%;
+}
+#submit-container {
+    display: block;
+    width: 100%;
+    height: 15%;
+    position: relative;
+}
+#submit-container > span, #submit-container > button {
+    position: relative;
+    top: 10%;
+}
+button {
+    float: right;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+input {
+    height: 40px;
+}

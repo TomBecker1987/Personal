@@ -1,0 +1,1 @@
+$("div[id*='b']").addClass("box")

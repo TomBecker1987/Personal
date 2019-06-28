@@ -1,0 +1,6 @@
+div#blogs {
+  background-color: red;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
