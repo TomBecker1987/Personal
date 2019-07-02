@@ -1,0 +1,12 @@
+{
+  "name": "grey wolf",
+  "averageWeight": {
+    "male":{"kilos": 55, "tonnes": 0.055},
+    "female":{"kilos": 39, "tonnes": 0.039}
+  },
+  "habitat":["tundra","mountains","forests","grasslands","deserts","woodlands"],
+  "isEndangered": false,
+  "diet":{"foods":["meat"],"percentage":100},
+  "enemies": ["bear","mountain lion","red fox","bobcat","lynx","badger","coyote","wolverine","golden eagle","great horned owl"],
+  "deliciousnessRate" : 1
+}
