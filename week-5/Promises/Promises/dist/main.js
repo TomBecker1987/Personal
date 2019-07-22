@@ -103,15 +103,15 @@
 
 //*******exercise 1 ************//
 
-// let randomWord = $.get(`/randomWord`)
+let randomWord = $.get(`/randomWord`)
 
-// randomWord.then(function(word){
-//     let book = $.get(`https://www.googleapis.com/books/v1/volumes?q=title:${word}`)
-//     book.then(function(book){
-//         console.log(book)
-//         console.log(word)
-//     })
-// })
+randomWord.then(function(word){
+    let book = $.get(`https://www.googleapis.com/books/v1/volumes?q=title:${word}`)
+    book.then(function(book){
+        console.log(book)
+        console.log(word)
+    })
+})
 
 //*******exercise 1 ************//
 

@@ -1,0 +1,32 @@
+@keyframes glow {
+    from{
+        box-shadow: white 0px 0px 50px 10px;
+    }
+    50%{
+        box-shadow: white 0px 0px 50px 30px;
+    }
+    to{
+        box-shadow: white 0px 0px 50px 10px;
+    }
+}
+
+body {
+    margin:0;
+    padding:0;
+    background-color:black
+}
+
+div.ball {
+    position: fixed;
+    margin-left: 35%;
+    margin-top: 100px;
+    display:inline-block;
+    background-color: #f1c40f;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

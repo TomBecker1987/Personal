@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding:0;
+    display:grid;
+    grid-template-rows: 80px 100vh;
+}
+body i {
+    font-family:'FontAwesome'!important;
+    text-emphasis: none;
+    text-decoration: none;
+    }
+#head{
+    background-color: #D980FA;
+    font-size: 40px;
+}
+i.fa{
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    color: #C4E538;
+}
+#side-bar{
+    display:grid;
+    width: 0px;
+    height: 100vh;
+    background-color: #12CBC4;
+    font-size: 2em;
+    padding-left: 0px;
+    font-family: 'Roboto', sans-serif;
+    transition: width 0.5s linear;
+    overflow-x: hidden;
+}
